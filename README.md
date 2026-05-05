@@ -91,7 +91,7 @@ Ensure your Android emulator is running or a physical device is connected with U
 Navigate back to the `automation-starwars` directory and run the tests:
 ```bash
 cd automation-starwars
-mvn test -Dtest=org.example.android.*
+mvn test -Dtest="org/example/android/*Test"
 ```
 
 Run a specific Android test:
