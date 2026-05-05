@@ -47,7 +47,7 @@ API tests validate the Star Wars API endpoints using RestAssured.
 
 ### Run All API Tests
 ```bash
-mvn test -Dtest="org.example.api.*"
+mvn test -Dtest="org/example/api/*Test"
 ```
 
 ### Run Specific API Test Class
