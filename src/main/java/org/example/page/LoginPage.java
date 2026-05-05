@@ -67,7 +67,7 @@ public class LoginPage extends BasePage {
     public void selectUserRole(String userRole) throws InterruptedException {
         Thread.sleep(2000);
         System.out.println("Click select user role");
-        clickWithoutWait("//*[contains(@text, 'Select user role')]");
+        click("//android.view.ViewGroup[@content-desc='Select user role']");
         click("//android.widget.TextView[@text='" + userRole + "']");
     }
 
@@ -110,6 +110,6 @@ public class LoginPage extends BasePage {
     }
 
     public boolean isProfileIconVisible() {
-        return isElementVisible("\"//android.widget.TextView[@text=\\\"You\\\"]\"");
+        return isElementVisible("\"//android.widget.TextView[@text='You']\"");
     }
 }
