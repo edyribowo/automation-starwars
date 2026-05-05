@@ -99,6 +99,9 @@ Run a specific Android test:
 mvn test -Dtest=verifyRegisterAndLoginTest
 ```
 
+https://github.com/user-attachments/assets/5784cb1e-1a56-4743-b700-bd7855d5836b
+
+
 ---
 
 ## Test Reports
