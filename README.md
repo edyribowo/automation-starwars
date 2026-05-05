@@ -56,6 +56,9 @@ Example for People endpoint:
 mvn test -Dtest=getPeopleTest
 ```
 
+https://github.com/user-attachments/assets/d1acdfc9-894c-42af-808f-0b9674cc32bf
+
+
 ---
 
 ## Running Android Tests
